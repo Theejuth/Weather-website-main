@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <title>Weather website</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .parallax {
+          /* The image used */
+          background-image: url("img_parallax.jpg");
+        
+          /* Set a specific height */
+          min-height: 500px; 
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        </style>
 </head>
 <body>
     <div id="container">
@@ -14,9 +29,9 @@
         </div>
         <img src="tempicons/clouds.svg" alt="" id="tempIcon">
         <div class="flex">
-        <h2 id="weatherCountry">Cityname</h2>
+        <h2 id="weatherCountry" class="h1">Cityname</h2>
         <h2 id="temperature">0°<strong>C</strong></h2>
-        <h2 id="weatherDescription">Description</h2>
+        <h2 id="weatherDescription"> </h2>
         <ul>
             <div class="features">
             <li id="feelsLike" class="h1">Feels Like : 0°C </li>
