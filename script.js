@@ -20,7 +20,6 @@ check.addEventListener("click", () => {
         console.log(data);
         weatherCountry.innerText = `${data.name} / ${data.sys.country}`;
         temperature.innerHTML = `${data.main.temp}°<b>C</b>`;
-        document.body.style.backgroundImage ="url('https://source.unsplash.com/1600x900/?" + "')";
 
         data.weather.forEach(items => {
             weatherDescription.innerText = items.description;
