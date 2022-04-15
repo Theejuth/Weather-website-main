@@ -179,24 +179,13 @@
 
 .container0 .card .content {
 	position: absolute;
-	bottom: 10px;
+	bottom: 70px;
 	padding: 20px;
 	text-align: center;
 }
 
 .container0 .card .content p {
 	color: #666;
-}
-
-.container0 .card .content a {
-	position: relative;
-	display: inline-block;
-	padding: 10px 20px;
-	background: #000;
-	color: #fff;
-	border-radius: 40px;
-	text-decoration: none;
-	margin-top: 20px;
 }
 
 .container0 .card:nth-child(1) .circle,
@@ -212,6 +201,11 @@
 .container0 .card:nth-child(3) .circle,
 .container0 .card:nth-child(3) .content a {
 	background: #00497f;
+}
+
+.container0 .card:nth-child(4) .circle,
+.container0 .card:nth-child(4) .content a {
+	background: #001d33;
 }
 
 .h1
