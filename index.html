@@ -4,23 +4,16 @@
     <meta charset="UTF-8">
     <title>Weather website</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .parallax {
-          /* The image used */
-          background-image: url("img_parallax.jpg");
-        
-          /* Set a specific height */
-          min-height: 500px; 
-        
-          /* Create the parallax scrolling effect */
-          background-attachment: fixed;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-        }
-        </style>
 </head>
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#info">Info</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="home">
     <div id="container">
         <div id="location">
             <input type="text" id="country" placeholder="Country" class="h1">
@@ -38,9 +31,9 @@
             <li id="humidity" class="h1">Humidity : 0</li>
             <li id="longitude" class="h1">Longitude : 0</li>
             <li id="latitude" class="h1">Latitude : 0</li>
-            </div>
         </ul>
-    </div>
+        </div>
     <script src="script.js"></script>
+    </div>
 </body>
 </html>
